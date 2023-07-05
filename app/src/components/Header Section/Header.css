@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.img{
+    width: 100vw; /* Set container width to the full viewport width */
+    height: 100vh; /* Set container height to the full viewport height */
+    background-size: cover; /* Scale the background image to cover the entire container */
+}
+
+
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    line-height: 0.2em;
+    font-family: 'Bree Serif', serif;
+
+    font-weight: 500s;
+}
