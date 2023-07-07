@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import About from './components/About Section /About';
 import Trees from './components/Trees Section/Trees';
-import Login from './components/Login Section/Login';
+import { Login } from './components/Login Section/Login';
 
 
 import {
