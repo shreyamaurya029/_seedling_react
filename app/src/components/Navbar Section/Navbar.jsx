@@ -15,10 +15,10 @@ function Navbar() {
         <div className="brandname">Seedling</div>
         </div>
       <div className="links">
-        <span><Link to="/">Home</Link></span>
-        <span><Link to="/about">About</Link></span>
-        <span><Link to="/tree">Trees</Link></span>
-        <span>SignIn</span>
+        <span><Link to="/" style={{ color: '#046813', textDecoration: 'none'}} >Home</Link></span>
+        <span><Link to="/about" style={{ color: '#046813',textDecoration: 'none' }}>About</Link></span>
+        <span><Link to="/tree" style={{ color: '#046813',textDecoration: 'none' }}>Trees</Link></span>
+        <span> <Link to="/login"style={{ color: '#046813',textDecoration: 'none'}}>Login</Link></span>
 
       </div>
     </div>
