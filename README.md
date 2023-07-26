@@ -38,7 +38,6 @@ To set up the Seedling project locally, please follow these steps:
 1. Clone the repository: `git clone https://github.com/your-username/seedling.git`
 2. Navigate to the project directory: `cd seedling`
 3. Install the dependencies: `npm install`
-4. Configure the environment variables (if necessary): Create a `.env` file and provide the required environment variables such as API keys or database credentials.
 5. Build the project: `npm run build`
 
 ## Usage
