@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+
+
+@media(max-width: 952px){
+    .heading{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        color: green;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .responsive{
+        width: 100%;
+        background-size: auto;
+    }
+    
+}
+
+
+
+
+
+
