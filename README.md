@@ -2,6 +2,8 @@
 
 Seedling is a front-end project aimed at spreading awareness about the importance of planting trees and providing information about various tree species. The project also allows users to donate money to NGOs that plant trees on their behalf. Seedling includes login and logout functionality for users and provides information about various environmentalists and forest preservation initiatives.
 
+Checkout the website (https://seedling0239.netlify.app/)
+
 ## Table of Contents
 
 - [Project Description](#project-description)
