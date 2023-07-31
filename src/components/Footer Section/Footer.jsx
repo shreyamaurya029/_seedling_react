@@ -13,12 +13,9 @@ function Footer() {
         <div className="footer-about">
           <h3>Shreya Maurya</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,
-            deserunt necessitatibus modi autem quae eius odit veritatis
-            recusandae, quo doloribus provident culpa ullam suscipit ea aliquid
-            maiores commodi maxime fugit odio doloremque! Praesentium culpa
-            saepe at quidem molestias pariatur alias, maiores eos optio quam
-            iste aperiam est, commodi eaque consectetur.
+           I'm currently a 3rd year CSE student, studying at NIT Silchar.
+            I have keen interest in front-end development. I am also learning
+            back-end developement.
           </p>
         </div>
 
@@ -55,25 +52,25 @@ function Footer() {
             </div>
           </div> */}
 
-          <ul className="footer-social-icons">
+<ul className="footer-social-icons">
             <li>
-              <a href="">
+              <a href="https://www.linkedin.com/in/shreya-maurya-657b42226/">
                 <FaLinkedin />
               </a>
             </li>
             <li>
-              <a href="">
-                <FaLinkedin />
+              <a href="https://www.facebook.com/profile.php?id=100076179082075">
+                <FaFacebook />
               </a>{" "}
             </li>
             <li>
-              <a href="">
-                <FaLinkedin />
+              <a href="https://www.instagram.com/shrvi0239/">
+                <FaInstagram/>
               </a>{" "}
             </li>
             <li>
-              <a href="">
-                <FaLinkedin />
+              <a href="https://www.youtube.com/channel/UCNVfdpoF37dicWrygyjfi3g">
+                <FaYoutube />
               </a>{" "}
             </li>
           </ul>
