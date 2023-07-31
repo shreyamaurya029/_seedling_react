@@ -4,6 +4,10 @@ Seedling is a front-end project aimed at spreading awareness about the importanc
 
 Checkout the website (https://seedling0239.netlify.app/)
 
+<img width="1680" alt="Screenshot 2023-07-31 at 8 38 09 PM" src="https://github.com/shreyamaurya029/_seedling_react/assets/100403765/dbe6723d-be83-4d6d-bb45-386fc27b3044">
+<img width="1680" alt="Screenshot 2023-07-31 at 8 37 55 PM" src="https://github.com/shreyamaurya029/_seedling_react/assets/100403765/b9583313-d993-4bc3-b96e-97b6e7dfdd74">
+
+
 ## Table of Contents
 
 - [Project Description](#project-description)
