@@ -1,0 +1,43 @@
+
+.about-first{
+    background-image: url(../images/10.jpeg);
+    height:40vh;
+    border: 1px solid red;
+}
+
+.about-first > p{
+    color: white;
+    font-size: 4em;
+    padding: 3em;
+    text-align: center;
+}
+
+.about-content{
+    height: 20vh;
+    margin: 1vmax 0vmax;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-heading > p{ 
+    position: relative;
+    text-align: center;
+    color: white; 
+    font-size:2em;
+}
+
+.about-para{
+    height: 70vh;
+    background-color: rgb(34, 163, 34);
+    padding: 4vmax 3vmax;
+    font-size: 1.7rem;
+    text-align:left;
+    color:aliceblue;
+}
+
+
+
+

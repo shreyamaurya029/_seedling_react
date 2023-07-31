@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap");
+
+.trees {
+  background-color: green;  
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 1rem;
+  height: 12em;
+  object-fit: cover;
+  border: 1px solid whitesmoke;
+}
+
+.container {
+  max-width: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-div-row{
+  margin-top: 13rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  background-color: rgb(206, 237, 213);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  border-radius: 12px;
+  margin: 3rem;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+name >p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+
+.card_details {
+  padding: 16px 8px 8px 8px;
+}
+
+
+.main-div-row_1{
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .main-div-row{
+    margin-top: 5rem;
+  }
+  .card img {
+    border-radius: 0.3rem;
+    height: 5em;
+    object-fit: cover;
+  }
+  .name {
+    font-size: 1em;
+    margin-top: 0.6em;
+  }
+
+  p {
+    font-size: 0.1em;
+    color: #000000;
+    padding: 2em;
+  }
+
+  .card {
+    padding: 0.4em;
+    width: 20vw;
+    border-radius: 0.3em;
+    margin: 2rem;
+  }
+  
+  .main-div-row_1{
+    margin-top: 0.02rem;
+
+  }
+  
+}
+
+
+@media screen and (max-width: 400px) {
+  
+.card img {
+  width: 100%;
+  border-radius: 2rem;
+  height: 12em;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.container {
+  max-width: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-div-row{
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: rgb(206, 237, 213);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  border-radius: 1em;
+  border: 2px solid red;
+  margin: 2rem;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+  border: 2px solid blue;
+}
+
+p {
+  font-size: 0.9em;
+  color: #000000;
+  border: 2px solid violet;
+}
+
+
+.card_details {
+  padding: 16px 8px 8px 8px;
+  border: 3px solid black;
+}
+
+
+.main-div-row_1{
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+  
+}
+

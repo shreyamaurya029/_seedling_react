@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap");
+
+.navbar {
+  display: flex;
+
+  justify-content: center;
+  z-index: 999;
+}
+
+.border {
+  position: fixed;
+  display: flex;
+  width: 70vw;
+  top: 2vmax;
+  gap: 2vmax;
+  background-color: white;
+  align-items: center;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3vmax;
+}
+
+.brand {
+  display: flex;
+  border-radius: 60px;
+  align-items: center;
+  justify-content: start;
+  padding: 5px;
+}
+
+.brand img {
+  border-radius: 60px;
+  width: 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: right;
+  flex: 0.9;
+  gap: 2vmax;
+  font-size: 20px;
+}
+
+span {
+  padding: 25px;
+  cursor: pointer;
+}
+
+.brandname {
+  font-size: 40px;
+  color: brown;
+  padding: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  .border {
+    width: 70vw;
+    top: 2vmax;
+    border-radius: 60px;
+    padding: 0 1vmax;
+    height: 6vmax;
+
+  }
+
+  .brand {
+    padding: 2px;
+  }
+
+  .brand img {
+    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+
+  }
+
+  .brandname {
+    font-size: 20px;
+    color: brown;
+    padding: 2px;
+
+  }
+
+  .links {
+    justify-content: space-evenly;
+    font-size: 8px;
+    gap: 0;
+
+  }
+
+  span {
+    padding: 0;
+    cursor: pointer;
+
+  }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .border {
+    width: 90vw;
+    top: 2vmax;
+    background-color: white;
+    align-items: center;
+    border-radius: 60px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1vmax;
+    height: 6vmax;
+
+    
+  }
+
+  .brand {
+    padding: 4px;
+    
+  }
+
+  .brand img {
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    
+  }
+
+  .brandname {
+    font-size: 25px;
+    color: brown;
+    padding: 3px;
+  }
+
+  .links {
+    justify-content: space-around;
+    flex: 0.9;
+    font-size: 18px;
+    gap: 0;
+  }
+
+  span {
+    padding: 0;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .border {
+    width: 70vw;
+    top: 2vmax;
+    border-radius: 60px;
+    padding: 0 1vmax;
+    height: 6vmax;
+
+  }
+
+  .brand {
+    padding: 2px;
+  }
+
+  .brand img {
+    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+
+  }
+
+  .brandname {
+    font-size: 18px;
+    color: brown;
+    padding: 2px;
+
+  }
+
+  .links {
+    justify-content: space-evenly;
+    font-size: 10px;
+    gap: 0;
+
+  }
+
+  span {
+    padding: 0;
+    cursor: pointer;
+
+  }
+}
+
+
